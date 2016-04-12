@@ -9,7 +9,6 @@ public class PigLatin {
 		System.out.println(toPigLatin(input));
 		sc.close();
 	}
-
 	public static String toPigLatin(String str) {
 		String vowels = "aeiou";
 		String[] words = str.split(" ");
